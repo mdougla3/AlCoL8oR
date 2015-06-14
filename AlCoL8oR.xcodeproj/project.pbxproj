@@ -14,6 +14,7 @@
 		22D69B271B2B2AB000E97713 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B261B2B2AB000E97713 /* Images.xcassets */; };
 		22D69B2A1B2B2AB000E97713 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B281B2B2AB000E97713 /* LaunchScreen.xib */; };
 		22D69B361B2B2AB000E97713 /* AlCoL8oRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D69B351B2B2AB000E97713 /* AlCoL8oRTests.m */; };
+		22D69B411B2DF0F700E97713 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D69B401B2DF0F700E97713 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		22D69B2F1B2B2AB000E97713 /* AlCoL8oRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlCoL8oRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D69B341B2B2AB000E97713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22D69B351B2B2AB000E97713 /* AlCoL8oRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlCoL8oRTests.m; sourceTree = "<group>"; };
+		22D69B3F1B2DF0F700E97713 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		22D69B401B2DF0F700E97713 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				22D69B1E1B2B2AB000E97713 /* AppDelegate.m */,
 				22D69B201B2B2AB000E97713 /* ViewController.h */,
 				22D69B211B2B2AB000E97713 /* ViewController.m */,
+				22D69B3F1B2DF0F700E97713 /* WhiskeyViewController.h */,
+				22D69B401B2DF0F700E97713 /* WhiskeyViewController.m */,
 				22D69B231B2B2AB000E97713 /* Main.storyboard */,
 				22D69B261B2B2AB000E97713 /* Images.xcassets */,
 				22D69B281B2B2AB000E97713 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D69B221B2B2AB000E97713 /* ViewController.m in Sources */,
+				22D69B411B2DF0F700E97713 /* WhiskeyViewController.m in Sources */,
 				22D69B1F1B2B2AB000E97713 /* AppDelegate.m in Sources */,
 				22D69B1C1B2B2AB000E97713 /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				22D69B3B1B2B2AB000E97713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22D69B3C1B2B2AB000E97713 /* Build configuration list for PBXNativeTarget "AlCoL8oRTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				22D69B3E1B2B2AB000E97713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
