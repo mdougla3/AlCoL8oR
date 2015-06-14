@@ -33,6 +33,15 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
+    
+    if ([self.navigationItem.title containsString:@"Wine"]) {
+        NSString *title = [NSString stringWithFormat:@"%f Glass of Wine",sender.value];
+        [self.navigationItem setTitle:title];
+    }else {
+        NSString *title = [NSString stringWithFormat:@"%f Shots of Whiskey",sender.value];
+        [self.navigationItem setTitle:title];
+    }
+ 
 }
 - (IBAction)buttonPressed:(UIButton *)sender {
     [self.beerPercentTextField resignFirstResponder];
