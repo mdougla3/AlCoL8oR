@@ -15,7 +15,12 @@
 		22D69B2A1B2B2AB000E97713 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B281B2B2AB000E97713 /* LaunchScreen.xib */; };
 		22D69B361B2B2AB000E97713 /* AlCoL8oRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D69B351B2B2AB000E97713 /* AlCoL8oRTests.m */; };
 		22D69B411B2DF0F700E97713 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D69B401B2DF0F700E97713 /* WhiskeyViewController.m */; };
-		22D69B441B2DF38B00E97713 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D69B431B2DF38B00E97713 /* MainViewController.m */; };
+		22D69B4B1B2E13D500E97713 /* whiskey.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B451B2E13D500E97713 /* whiskey.png */; };
+		22D69B4C1B2E13D500E97713 /* whiskey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B461B2E13D500E97713 /* whiskey@2x.png */; };
+		22D69B4D1B2E13D500E97713 /* whiskey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B471B2E13D500E97713 /* whiskey@3x.png */; };
+		22D69B4E1B2E13D500E97713 /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B481B2E13D500E97713 /* wine.png */; };
+		22D69B4F1B2E13D500E97713 /* wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B491B2E13D500E97713 /* wine@2x.png */; };
+		22D69B501B2E13D500E97713 /* wine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D69B4A1B2E13D500E97713 /* wine@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +49,12 @@
 		22D69B351B2B2AB000E97713 /* AlCoL8oRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlCoL8oRTests.m; sourceTree = "<group>"; };
 		22D69B3F1B2DF0F700E97713 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		22D69B401B2DF0F700E97713 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
-		22D69B421B2DF38B00E97713 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		22D69B431B2DF38B00E97713 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		22D69B451B2E13D500E97713 /* whiskey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiskey.png; path = "../../../../../Downloads/Alcolator Icons/whiskey.png"; sourceTree = "<group>"; };
+		22D69B461B2E13D500E97713 /* whiskey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiskey@2x.png"; path = "../../../../../Downloads/Alcolator Icons/whiskey@2x.png"; sourceTree = "<group>"; };
+		22D69B471B2E13D500E97713 /* whiskey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiskey@3x.png"; path = "../../../../../Downloads/Alcolator Icons/whiskey@3x.png"; sourceTree = "<group>"; };
+		22D69B481B2E13D500E97713 /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wine.png; path = "../../../../../Downloads/Alcolator Icons/wine.png"; sourceTree = "<group>"; };
+		22D69B491B2E13D500E97713 /* wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine@2x.png"; path = "../../../../../Downloads/Alcolator Icons/wine@2x.png"; sourceTree = "<group>"; };
+		22D69B4A1B2E13D500E97713 /* wine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine@3x.png"; path = "../../../../../Downloads/Alcolator Icons/wine@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +103,6 @@
 				22D69B3F1B2DF0F700E97713 /* WhiskeyViewController.h */,
 				22D69B401B2DF0F700E97713 /* WhiskeyViewController.m */,
 				22D69B231B2B2AB000E97713 /* Main.storyboard */,
-				22D69B421B2DF38B00E97713 /* MainViewController.h */,
-				22D69B431B2DF38B00E97713 /* MainViewController.m */,
 				22D69B261B2B2AB000E97713 /* Images.xcassets */,
 				22D69B281B2B2AB000E97713 /* LaunchScreen.xib */,
 				22D69B191B2B2AB000E97713 /* Supporting Files */,
@@ -106,6 +113,12 @@
 		22D69B191B2B2AB000E97713 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22D69B451B2E13D500E97713 /* whiskey.png */,
+				22D69B461B2E13D500E97713 /* whiskey@2x.png */,
+				22D69B471B2E13D500E97713 /* whiskey@3x.png */,
+				22D69B481B2E13D500E97713 /* wine.png */,
+				22D69B491B2E13D500E97713 /* wine@2x.png */,
+				22D69B4A1B2E13D500E97713 /* wine@3x.png */,
 				22D69B1A1B2B2AB000E97713 /* Info.plist */,
 				22D69B1B1B2B2AB000E97713 /* main.m */,
 			);
@@ -209,9 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D69B4D1B2E13D500E97713 /* whiskey@3x.png in Resources */,
+				22D69B501B2E13D500E97713 /* wine@3x.png in Resources */,
 				22D69B251B2B2AB000E97713 /* Main.storyboard in Resources */,
 				22D69B2A1B2B2AB000E97713 /* LaunchScreen.xib in Resources */,
+				22D69B4F1B2E13D500E97713 /* wine@2x.png in Resources */,
+				22D69B4B1B2E13D500E97713 /* whiskey.png in Resources */,
+				22D69B4C1B2E13D500E97713 /* whiskey@2x.png in Resources */,
 				22D69B271B2B2AB000E97713 /* Images.xcassets in Resources */,
+				22D69B4E1B2E13D500E97713 /* wine.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +251,6 @@
 				22D69B221B2B2AB000E97713 /* ViewController.m in Sources */,
 				22D69B411B2DF0F700E97713 /* WhiskeyViewController.m in Sources */,
 				22D69B1F1B2B2AB000E97713 /* AppDelegate.m in Sources */,
-				22D69B441B2DF38B00E97713 /* MainViewController.m in Sources */,
 				22D69B1C1B2B2AB000E97713 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
